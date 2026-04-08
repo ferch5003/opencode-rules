@@ -1,7 +1,7 @@
 {
   "name": "opencode-rules",
-  "version": "0.6.2",
-  "description": "OpenCode plugin that discovers and injects markdown rules into system prompts",
+  "version": "0.6.3-fix",
+  "description": "OpenCode plugin that discovers and injects markdown rules into system prompts - FIXED for infinite loop",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "type": "module",
@@ -27,14 +27,14 @@
     "system-prompt",
     "typescript"
   ],
-  "author": "Joe Maples <joe@maples.dev>",
+  "author": "Fernando Visbal <fernando.visbal@mercadolibre.com.co>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frap129/opencode-rules.git"
+    "url": "git+https://github.com/ferch5003/opencode-rules.git"
   },
   "bugs": {
-    "url": "https://github.com/frap129/opencode-rules/issues"
+    "url": "https://github.com/ferch5003/opencode-rules/issues"
   },
   "files": [
     "dist",

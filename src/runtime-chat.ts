@@ -59,6 +59,10 @@ export function handleChatMessage(
     if (input.agent) {
       state.lastAgentType = input.agent;
     }
+
+    if (userPrompt) {
+      state.rulesInjected = false;
+    }
   });
 
   debugLog(
